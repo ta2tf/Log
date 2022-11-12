@@ -8,6 +8,13 @@
 
 
 /*
+   to use this library
+   -include log.h 
+   -define a TAG
+   -use LOGI or LOGV or LOGE or LOGD or LOGW where to need log 
+   -configure parameter
+     CONFIG_LOG_LEVEL                
+     CONFIG_LOG_COLORS            
 
    USAGE:
      const char *TAG="OLA:";
